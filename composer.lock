@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac753ae2702317b354e7eb283f28cbc",
+    "content-hash": "4e073e554dfafa3334a796d1c133be1c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -891,6 +891,61 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.7.0"
             },
             "time": "2020-09-30T07:37:11+00:00"
+        },
+        {
+            "name": "kabbouchi/laravel-vercel",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/KABBOUCHI/laravel-vercel.git",
+                "reference": "803e018e1e14bf3ab2421efc6dafb6a68b4dcdaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/KABBOUCHI/laravel-vercel/zipball/803e018e1e14bf3ab2421efc6dafb6a68b4dcdaf",
+                "reference": "803e018e1e14bf3ab2421efc6dafb6a68b4dcdaf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^7.0|^8.0",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "KABBOUCHI\\LaravelVercel\\LaravelVercelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "KABBOUCHI\\LaravelVercel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Georges KABBOUCHI",
+                    "email": "georges.kabbouchi@gmail.com"
+                }
+            ],
+            "homepage": "https://github.com/kabbouchi/laravel-vercel",
+            "keywords": [
+                "kabbouchi",
+                "laravel-vercel"
+            ],
+            "support": {
+                "issues": "https://github.com/KABBOUCHI/laravel-vercel/issues",
+                "source": "https://github.com/KABBOUCHI/laravel-vercel/tree/0.1.0"
+            },
+            "time": "2020-09-20T22:38:19+00:00"
         },
         {
             "name": "laravel/framework",
@@ -7264,5 +7319,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
